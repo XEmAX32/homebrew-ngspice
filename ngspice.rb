@@ -24,6 +24,17 @@ class Ngspice < Formula
     url "https://git.code.sf.net/p/ngspice/ngspice.git", branch: "master"
   end
 
+  depends_on "xquartz"
+  depends_on "libxaw"
+  depends_on "libxpm"
+  depends_on "libxft"
+  depends_on "libxcb"
+  depends_on "flex"
+  depends_on "ncurses"
+  depends_on "xorg-libXaw"
+  depends_on "fontconfig"
+  depends_on "freetype"
+  depends_on "libomp"
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "bison" => :build
